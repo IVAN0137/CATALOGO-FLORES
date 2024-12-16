@@ -1,0 +1,50 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.text-pink {
+    color: #d63384;
+}
+
+.bg-pink {
+    background-color: #d63384;
+}
+
+.btn-pink {
+    background-color: #d63384;
+    color: white;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-pink:hover {
+    background-color: #a12561;
+    transform: scale(1.1);
+}
+
+.hero {
+    background: linear-gradient(to right, rgba(214, 51, 132, 0.7), rgba(255, 193, 204, 0.7)), url('hero-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+
+.text-gradient {
+    background: linear-gradient(to right, #d63384, #ff85a1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.gallery-card:hover img {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
